@@ -36,7 +36,7 @@ jobs:
 
       # 6️⃣ Run tests
       - name: Run tests
-        run: pytest
+        run: pytest tests/
 
       # 7️⃣ Optional: Lint with flake8
       - name: Install flake8
