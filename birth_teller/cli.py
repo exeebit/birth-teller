@@ -2,6 +2,7 @@
 import argparse
 from .core import BTM
 
+
 def main():
     btm = BTM()
     btm.banner()

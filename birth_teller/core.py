@@ -1,5 +1,6 @@
 from datetime import date, datetime
 
+
 class BTM:
     """Bīrth Dãy Téllèr Mâçhïñē"""
 
@@ -42,8 +43,6 @@ class BTM:
             day = int(day)
             year = int(year)
 
-            # Validate the date using datetime
-            valid_date = date(year, month, day)
         except (ValueError, KeyError):
             raise ValueError(f"Invalid date: {day}-{month}-{year}")
 
@@ -72,4 +71,3 @@ class BTM:
             'seconds': age_seconds,
             'weekDay': weekday
         }
-
