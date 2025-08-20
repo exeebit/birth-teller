@@ -74,7 +74,6 @@ class BTM:
 
     def information(self, day, month, year):
         self.birthDay, self.birthMonth, self.birthYear = self.validate_date(day, month, year)
-        
         today = date.today()
         birth_date = date(self.birthYear, self.birthMonth, self.birthDay)
         age_days = (today - birth_date).days
