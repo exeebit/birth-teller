@@ -42,29 +42,29 @@ print(f"Age in days: {info['days']}")
 ### Using different month formats
 ```bash
 # Full month name
-info = btm.information(15, "March", 1995)
+info = btm.information(8, "February", 1999)
 
 # 3-letter abbreviation
-info = btm.information(15, "mar", 1995)
+info = btm.information(8, "feb", 1999)
 
 # Numeric month
-info = btm.information(15, 3, 1995)
+info = btm.information(8, 2, 1999)
 ```
 > [!NOTE]
 > Works anywhere in Python, including Django views, scripts, or APIs.
 
 ### CLI Usage (Optional)
 ```bash
-birth-teller --name "Emran" --day 8 --month feb --year 1999
+birth-teller --name Emran --day 8 --month feb --year 1999 // or
+birth-teller -n Emran -d 8 -m feb -y 1999
 ```
 ### Example Output (CLI)
 
 ```bash
 You were born on MONDAY
 Years: 26
-Days: 9689
+Days: 9690
 Weeks: 1384
-Hours: 232538
-Minutes: 13952299
-Seconds: 837137977
+Zodiac Sign: Capricorn
+
 ```
