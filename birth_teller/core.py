@@ -21,7 +21,7 @@ class BTM:
         if not name:
             name = "User"
         print(f'\n* {name}, welcome to BTM *\n')
-    
+
     def zodiac_sign(self, day, month):
 
         zodiac_dates = [
