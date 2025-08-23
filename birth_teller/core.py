@@ -12,7 +12,7 @@ class BTM:
     def banner(self):
         programName = 'Bīrth Dãy Téllèr Mâçhïñē'
         programName = f'* {programName} *'
-        version = 'Version 0.2'
+        version = 'Version 0.2.1'
         print('\n' + '*'*len(programName))
         print(programName)
         print('*'*(len(programName)-len(version)-4) + f' {version} **')

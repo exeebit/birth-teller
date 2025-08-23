@@ -1,7 +1,6 @@
-
 [project]
 name = "birth_teller"
-version = "0.2.0"
+version = "0.2.1"
 description = "A Python package to calculate birthdays and zodiac info"
 authors = [
   { name = "Emran Hossain Sagor", email = "imrans4gor@gmail.com" }
@@ -9,11 +8,6 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.0"
 license = { text = "GPL-3.0" }
-
-dependencies = [
-    "click",
-    "pytest"
-]
 
 classifiers = [
     "Programming Language :: Python :: 3",
